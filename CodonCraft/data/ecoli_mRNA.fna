@@ -1,0 +1,921 @@
+LOCUS       OX031279                1806 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv27a (Pv_sp_3913.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031279
+VERSION     OX031279.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124564
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..1806
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            complement(<1..>1806)
+                     /gene="Pv_sp_3913.t1"
+     CDS             complement(<392..>1657)
+                     /gene="Pv_sp_3913.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv27a"
+                     /protein_id="CAH6763549.1"
+                     /translation="GNSQKPDLRQLFQNYPRNQELAANLGTSYEVVYPVQLKTSRFRG
+                     VSTRKISSNNAVEHVSNTSFLIEAHHFKIYLDLELNINLLPPTLTQFMISATSRQLIH
+                     EDIENCYYHSTVRNRSDSYGAFRTCSGLSGVLYLGDNVFSIHPLDGDHSSKQPHLLFH
+                     HYQLNEDQRRCDVGDGDEKFHCLQERLREITDYGSDVPPGKKYIELALILDQAFFEMH
+                     NSPPKEVIGNAIQMINCADLHYHSLNASISLVHIELWTEDVIHVEPNIEQNLQNIQEY
+                     LEQQYDRRSMDAIHMLSGAAFNDSVSGAAETDSICTVKAVGITKVGNIHQTHVTSHVI
+                     THMLGHNLGMYHDHDCCTCPYKSGCHMLNHIQSVQPFHFSSCSIEDYFRTLRKGYGVC
+                     LFNMPMLRESICGNGILEKGEECDCGTSEV"
+ORIGIN      
+        1 agcactttat atatcctccc ttatgatcca atccacagtt gccatttggg gttccttgaa
+       61 cattcagcct ctggtaacaa attggatctg ctgtttcaga gccacttccc cacagctgtg
+      121 tacactgatc gttaataact gggcagtttc cctggtagca atatccattc ccacctgcac
+      181 acagtattcc gttcttcacg aagagatcca aagggcacag tccgtttttg ccatcacagt
+      241 attcaggtat gtcacactct cctttagatg ggcggcaaat aaatgcagga cttcgaggtt
+      301 tacatttgtc acagcatggc ccagatgaac actgcgcatt tttcacaaat ttgcatgtta
+      361 tatgatcgca acacgagtcc gagttcttgc agacctctga tgttccgcag tcgcattctt
+      421 ctcctttttc taaaattcca ttaccgcata ttgactcccg caacattggc atgttaaaga
+      481 ggcagacgcc gtatcctttg cgaagcgtgc gaaagtaatc ttcaatacta caagatgaaa
+      541 agtgaaaagg ctggactgac tgtatgtggt tcaacatatg gcatccagat ttgtaagggc
+      601 aggtacaaca gtcgtgatca tgatacattc caagattgtg acccagcata tgtgttataa
+      661 catgggaagt tacatgcgtc tgatgtatgt tacccacctt cgttatccca actgctttca
+      721 ctgtgcatat gctgtcagtt tcagcagctc cactcacgct gtcgttgaat gcggcacccg
+      781 atagcatatg gatggcatcc atggatcttc ggtcgtactg ttgttccaaa tattcctgaa
+      841 tgttttgcag attttgctcg atattgggtt ccacgtgaat tacatcttca gtccacagtt
+      901 ctatatgtac cagcgatatg gatgcattta aggagtgata gtgtaaatca gcgcagttga
+      961 tcatttgaat cgcattgcca atgacttctt taggcggaga attgtgcatc tcgaaaaaag
+     1021 cttgatccaa aatgagagca agttcgatgt acttcttccc agggggaacg tcagacccgt
+     1081 aatctgttat ttcacgcagg cgctcttgca agcaatgaaa tttttcatct ccatcgccaa
+     1141 catcacatct gcgctggtct tcgttcagct ggtaatgatg aaaaagcaaa tgcggttgtt
+     1201 tcgacgaatg atctccatca agaggatgaa ttgaaaacac attgtccccc aaataaagaa
+     1261 caccgcttaa tccagagcac gtccgaaaag ccccatagga gtcactgcgg ttccttacag
+     1321 ttgaatgata gtaacagttt tcaatatcct cgtgaattag ctgccgagaa gtagcagaaa
+     1381 tcatgaactg agtcaacgtc ggcggtagca ggttaatgtt tagttccaaa tcgaggtaaa
+     1441 tcttgaaatg atgggcttca atcaggaacg aagtgttcga aacgtgttcc actgcattgt
+     1501 tggaagagat cttcctcgtc gagactccac ggaatctgct tgtttttagt tggacggggt
+     1561 agacgacttc ataactcgtc ccaagatttg cagcgagttc ttgattccgt gggtagttct
+     1621 ggaacagttg acgaagatca ggtttttgag aatttcctaa acagcagaag agtagcaaag
+     1681 taagaacaac aagaagatgt gaaaacaacg aaaagaacat cttatgtatc ttcattcgta
+     1741 tagcctgaag agaattacag cacacagcaa aagcgtcggg aagccagact aaggaagtag
+     1801 ttgtgg
+//
+
+LOCUS       OX031277                1869 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv46b (Pv_sp_3707.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031277
+VERSION     OX031277.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124562
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..1869
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            complement(<1..1869)
+                     /gene="Pv_sp_3707.t1"
+     CDS             complement(<136..1608)
+                     /gene="Pv_sp_3707.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv46b"
+                     /protein_id="CAH6763547.1"
+                     /translation="MEALLKIFILLFSFCTVFCSDVLDYSGPDFEDRVHEHDTILVEF
+                     FAPWCGHCKRLAPEYDQAAAALKKADPPVPLAKVDCTSDSGKDTCSKYGVSGYPTLKI
+                     FRGGEFSSEYNGPREADGIIKYMKSQVGPSSKELKSVEDAETFLSKDDVVIVGFFKDT
+                     SSKLKEEFLKVADKMRESSTFGHTVEPEVLSKYEFSEQIVLFRPKKYWSKFEPQAVQY
+                     TGSADKGQIQQFVKETYHGLVGHRTHDNHEDFKAPLIVAYYDVDYVKNVKGTNYWRNR
+                     IMKVAQNYKDKVNFAISNKDKFSAEVEDYGLTTKGDKPIVAARNTKLQKFNMKEEFSI
+                     ENFEKFVQDFVDGKLEPHLKSEPVPETNDGPVKVAVAQNFEELVTENTKDVLIEFYAP
+                     WCGHCKKLAPTYEELGTRMADEDVEIVKMDATANDVPAPFEVHGFPSLYWLPKNQKSS
+                     PQRYEGGRELDDFIKYISKHATDELNDYDRKGKKKASKEEL"
+ORIGIN      
+        1 ggttgatgat gcacaagatc ttcaaatttg accaattaac gcagttttga agtacagttt
+       61 taacaagaaa aatttacaaa tactaccaag ctttacaata acaaaacctg acccttaact
+      121 taggaatttt gttcaaagtt cttcctttga agctttcttc tttcccttcc tgtcataatc
+      181 attcaattca tctgttgcat gcttggaaat gtatttgatg aagtcatcca gttctcttcc
+      241 accctcgtat ctctgaggtg aagacttctg attctttggc aaccagtata atgatgggaa
+      301 tccatggact tcaaaaggag ctgggacatc attagcagta gcatccattt ttacaatttc
+      361 aacatcttca tcagccattc tggttcccag ttcttcatat gttggagcaa gtttcttgca
+      421 gtgcccacac catggagcat agaattcaat taaaacatct tttgtgttct ctgttacaag
+      481 ttcttcaaag ttttgagcaa ctgcaacctt tacaggaccg tcatttgttt ctggcacagg
+      541 ttccgatttc aaatgtggtt ctaattttcc atcaacaaag tcttggacaa acttttcgaa
+      601 gttttcaatg ctgaattctt ctttcatgtt gaacttctgt aactttgtat tgcgagcagc
+      661 aacaatgggt ttatcaccct tagttgtaag gccataatct tcaacttcag cagaaaactt
+      721 atctttgttt gaaatagcaa agttaacttt gtccttgtag ttttgagcaa ctttcatgat
+      781 cctgttacgc cagtaatttg tgcctttaac attctttacg taatcaacat cataatatgc
+      841 tacaataaga ggtgctttga agtcttcatg gttgtcatga gttctgtgac caactaagcc
+      901 atggtatgtt tcttttacaa actgctgaat ttgcccttta tcagcagaac cagtatattg
+      961 cacagcttga ggttcaaatt tgctccagta tttcttggga cggaataata ctatttgctc
+     1021 tgaaaattca tatttgctca agacttctgg ttcaactgta tgtccaaaag ttgaagattc
+     1081 cctcattttg tctgcaacct tcaagaattc ttcctttagt ttactggagg tatctttgaa
+     1141 gaaaccaaca attacaacat catctttgct taagaaggtt tcagcatctt ctacagactt
+     1201 aagttctttt gaacttggtc caacttggga tttcatgtat ttaataattc catctgcttc
+     1261 ccttggtcca ttatattctg aagaaaattc tccacctcta aatattttta gtgttgggta
+     1321 tccactaact ccatatttac tgcatgtatc cttcccagaa tcagatgtgc aatcaacttt
+     1381 ggccaaagga acaggtggat ctgctttctt taaagctgca gctgcttgat catattctgg
+     1441 ggctaacctt ttgcagtgtc cacaccatgg agcgaaaaac tcgaccaaaa tagtatcgtg
+     1501 ctcatgaact ctatcttcaa agtctgggcc agaataatct agtacatcgc tacaaaatac
+     1561 tgtacaaaag gagaataaaa gtataaaaat ctttagcaaa gcctccatcg tgaaaaatgg
+     1621 aaccaccttc cagcagagaa ccgaaacgcc ggtgaagaac ctgaaaggaa gggcgaacac
+     1681 aacgtggctg acaagggatg tacctaacca cgtctgcgtt gtccgtctct gattggtgga
+     1741 gattgtggaa catcgtagtt acgaaacaca gagtaacgtc atgtttgcgt atcgcagatg
+     1801 taagcttttc tcttctaaat tgtgcctctc aggctgaaag aacagcattt cgaatactca
+     1861 ctatcgttg
+//
+
+LOCUS       OX031276                1885 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv54a (Pv_sp_3640.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031276
+VERSION     OX031276.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124561
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..1885
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            complement(<1..1885)
+                     /gene="Pv_sp_3640.t1"
+     CDS             complement(<99..1862)
+                     /gene="Pv_sp_3640.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv54a"
+                     /protein_id="CAH6763546.1"
+                     /translation="MRLFAFFKAFCFLISSLGGFHFAALETFQVRMREGPKLSEGRVE
+                     VLVNGQWGNVCVDNWQYKEAQVVCRQLGYPLGALEATKRSQYGTGTGNYVLCGLICFG
+                     NESSISECGLDIFPCSRCSRGKAAGVVCREYEKTCPEYYFKCQNDRCVDYGSVCDGFD
+                     DCKDGSDEFPSLCKEPEVRLVDGNDKYSGRVEIKFLNIWGTICDDTFDDKDAQVICHS
+                     LGFRGPATAHGNAFFGPGNGVIWLDGLHCNGSEAKITRCPRERWALHDCKQYEAAGVT
+                     CSSPQGHDLIESMECGIESGDHISPNYEFRRLPGRSSLKLKEINRMTSPMLSSRATAL
+                     RFPARRRVARMVFSEKITLLASFPWIADVRYHAQGKSYHACGAAILSEFFIVTAAHCV
+                     NKHTKRDYIIRVGEFDQNKKDRFEEDFEVERIIIHEKFNEAVRLNNDIALVKLRQKAK
+                     RGIHFSEDVRPICLPTPETPYLPEIWAAVGGWGITEHSTKSSILRLAYVPLLSPVQCK
+                     GFTDYGTNKIRPGMLCAGHIDGGSDACKADSGGPLVTKFNGRSTLLGIVSWGHGCGEA
+                     KRPSVYANVQHYLTWITRNMAA"
+ORIGIN      
+        1 tggtagaaaa gaactcaaca aagaactgtt acagcaggtt ttgccaaaat atcacagata
+       61 aggaggtttc tttaattttt gtctcacgaa gggtgttaag ctgccatatt tcttgtgatc
+      121 catgtcaaat aatgttgaac gtttgcgtag acactaggtc tcttggcctc accacaacca
+      181 tgaccccagc taacgattcc aagtaaagtt gaacgaccat tgaatttggt aacaagtggt
+      241 cctccactgt cagctttaca ggcatcacta cctccgtcaa tgtgcccagc acagagcata
+      301 ccaggcctaa tcttatttgt gccataatct gtgaatcctt tgcactgaac aggagaaaga
+      361 agaggaacgt atgctaagcg aagaattgat gattttgtag agtgctctgt tataccccat
+      421 ccaccaaccg cagcccatat ttctggaaga tacggtgttt ctggagttgg aagacatatc
+      481 ggtctgacat cttcactgaa gtgtattcct ctcttggctt tttgccttaa ttttactaaa
+      541 gcaatatcat tattaaggcg taccgcttca ttaaactttt catgaataat aatcctctct
+      601 acttcaaagt cttcttcaaa tctatccttt ttgttttgat cgaattctcc gacccttatg
+      661 atgtaatctc ttttagtgtg cttgtttacg cagtgagcag ctgtgacgat gaagaattca
+      721 gacagaatgg ctgcaccaca ggcatggtaa gacttccctt gagcgtgata cctgacgtca
+      781 gcaatccacg ggaaagacgc tagcaatgtt attttctctg aaaataccat tctggccacc
+      841 ctgcgccttg ctgggaagcg aagagctgtt gcacggctac tgagcattgg cgaagtcatc
+      901 ctattaattt cttttagttt cagggaagat cgaccaggaa ggcggcgaaa ttcataatta
+      961 ggagaaatat gatcaccgct ctcaattcca cattccatcg actctattaa atcgtggcct
+     1021 tgcggcgatg agcaagtgac gccagcggct tcgtattgct tacagtcatg gagtgcccat
+     1081 ctttctcttg ggcatctggt aattttagct tctgagccat tacagtgcag tccatcaagc
+     1141 catataactc cattcccggg tccaaagaat gcatttccgt gtgctgttgc aggacccctg
+     1201 aatcctagcg aatggcagat gacttgggcg tccttgtcgt cgaacgtatc gtcacaaata
+     1261 gttccccata tgttgaggaa tttaatttca actcttcccg aatacttgtc attcccatca
+     1321 accaatcgca cttctggttc cttacataag gaaggaaact catcggaacc atctttacag
+     1381 tcgtcaaaac catcgcaaac agagccataa tcgacgcatc tgtcattctg acacttgaaa
+     1441 taatattccg gacatgtttt ttcatattct ctacacacca ctcctgcagc tttccctcga
+     1501 gagcaccggc tacagggaaa aatatccaac ccgcattcgc taatcgaact ttcatttcca
+     1561 aaacatataa gtccacataa gacataattg ccggttccag tgccgtattg tgatcttttg
+     1621 gtagcttcta gtgcacccaa cggatacccc agctgtcgac agacgacctg agcttcttta
+     1681 tattgccagt tatcgacgca gacgttaccc cactggccat tgactaatac ttcaactcga
+     1741 ccttccgaaa gttttggtcc ttctctcatg cgaacttgga acgtttccag agcggcaaaa
+     1801 tgaaaaccac ccaaggaaga aatcagaaag cagaaagctt tgaagaacgc gaagagacgc
+     1861 atagtggatg ttttctgtat gcgtg
+//
+
+LOCUS       OX031274                2932 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv49a (Pv_sp_3247.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031274
+VERSION     OX031274.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124559
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..2932
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            1..>2932
+                     /gene="Pv_sp_3247.t1"
+     CDS             194..>1705
+                     /gene="Pv_sp_3247.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv49a"
+                     /protein_id="CAH6763544.1"
+                     /translation="MTIQPSQRILLVILTCCLHFYVECRRYDRCSTGEGRAGICVAKR
+                     YCREAVASPRQTLTACSGTSGFYCCPVPTARSSEDSSSSDQAPPAAPVRPTPSAVGTS
+                     TPRRDIRYPESDSRYRPGSNAEQSDYSSSSSSTHDGKYRYPDKDDSPRETRVKEPDNT
+                     NSGSRHYHGEVRLPNRDKPSTKRPIYEDQDRKHVPNNNSRRPSVQRTTSSLPRRNDRS
+                     QEKYTTPTSLIKFPEEYKPPHPPAPACGQKPYELFIAGGEESRQHEWPWMVAIFRRHS
+                     SPKPNTYICGGSLINRRYILTAAHCFIHNYVILPASTFVVRLGAHYLDSGEDYTVANL
+                     VVHQNHSGSDFFNDIALIRLASEVFFTDKIAPICLPTREMSYKTFVDRMATVAGWGST
+                     AFYRIADSRVLQHVSVPVLLNEECSSAYSRVRGAAFLARGTDHIICAGLREGGKDACL
+                     GDSGGPLMLKGDDDDSWTVIGIVSLGYKCAEPGYPGVYTRVTHYLSWIYSNMKN"
+ORIGIN      
+        1 catacacgtt gttgattggg agggcaacga taaatggtgg gggttcagaa gcgcgattgc
+       61 attttcctct aaacgaaatt cagcgtttgc ctgctcgaag gaggtgcata caggttgccg
+      121 aaagattggc tggtcctgaa gattgcacac aacaatatga aagaggaagc gggataaaaa
+      181 aaaagaaact gcgatgacaa tacaaccttc acagaggatt ctactggtga tcctgacatg
+      241 ctgccttcat ttttatgtag aatgtcgccg ctacgatcgt tgctcgacag gagaaggtcg
+      301 cgcagggatc tgcgtcgcga aaagatactg cagggaagct gttgcctccc ctcgccagac
+      361 tctgacagcc tgttcaggta ccagtggttt ctattgttgt ccagttccta cggccaggtc
+      421 ttctgaggac agcagttcct ccgatcaggc gcccccagct gctccagtga ggccaacgcc
+      481 gtcggcagtg ggaacgtcaa ctccccggag ggatattcgc tacccggaat cagattcacg
+      541 ttatcgacca ggttcaaacg cagaacagtc ggattactca tcatcgtcat cttccacgca
+      601 cgatggaaaa tacagatatc cagacaaaga tgacagccct agagaaacga gggtaaaaga
+      661 gcctgacaac actaattctg gttcaagaca ttaccatggt gaggtacgcc tccctaatcg
+      721 agacaagcca tcaacgaaaa ggccgatata cgaagatcaa gatagaaaac acgtacccaa
+      781 taacaatagt aggcgacctt ccgtgcagcg aacaacttca tcgctacctc ggaggaatga
+      841 caggtcccaa gaaaaatata caactcctac ttcactgatc aaatttccgg aggagtacaa
+      901 accaccacac ccacctgctc cagcctgtgg ccagaagcca tatgagttat tcattgctgg
+      961 aggagaagaa tcgagacagc acgagtggcc ctggatggta gccatattcc gtcgacatag
+     1021 tagcccaaaa cctaatacct acatttgtgg aggatcgtta ataaacagac gttacatcct
+     1081 cactgcagct cactgcttca tccataatta cgtcattctc ccagcatcta catttgtagt
+     1141 cagacttgga gctcattacc tcgatagtgg tgaagattat actgtcgcca atttagtggt
+     1201 gcatcagaat cacagtggct cagacttctt taatgacatt gctcttatcc gactggccag
+     1261 cgaagttttc ttcacggata agatcgcacc catctgccta cctacccgtg agatgagcta
+     1321 caaaaccttt gtcgatcgca tggccacggt tgcaggatgg ggatccaccg cattttaccg
+     1381 tatagctgat agccgtgtac tgcagcacgt gtctgtccca gttctattaa acgaggaatg
+     1441 ctcatcggct tattccagag tccggggagc agccttctta gcaagaggga ctgaccatat
+     1501 catctgtgct ggtctgaggg aaggaggaaa agatgcctgc ttgggtgatt caggagggcc
+     1561 tcttatgttg aaaggagatg atgatgactc gtggactgta attggtatcg tctctcttgg
+     1621 atataaatgt gccgaacctg ggtatcctgg tgtctatacc cgagttactc attatcttag
+     1681 ctggatatat tcaaatatga agaactaaac attcatagaa attttgctag tggtttgaaa
+     1741 ttgatgcccg ttttcgttct ttttctgtta gaagccgaaa aggcaccatc taccaattca
+     1801 gtttttgcgg gtatcaaaca tatcataaaa gttgactact ggtatatctg ttagacttga
+     1861 cacactacag cagctaaaaa atatagttaa aaaaaacttc atttgaatcg agcatatcaa
+     1921 cttagatttg ttggagtaag tttctcaacg tctaagattt tattaacttg atctttaatt
+     1981 gactcacaga aaataatttt tgtaagttat gacttatttc ctacaaaatg gcaacagtga
+     2041 aatattttag cttattattg gaaactggca acagttttat tggaggttgg aaaacgcaga
+     2101 aagagatatc aaaatggagg cttctctact gaaaatttgt ttggaagaac atatatgaat
+     2161 caataaaagc atttttcttt gtttatagca gaaaatggta gaaagatctg aagtgactgg
+     2221 ctacgattcg ttaatggaac taattagtga aaatctatcc agaccgagac caatttacgt
+     2281 gcttttcact ggtgccaaag actacgaagg acaaaattgg tgtattgatt gcaccgagac
+     2341 tgaacctgtt gtggaagaag ctttaaaaac agcaccgcat gattccttat ttatagtatg
+     2401 caatgtcgga gatagcccga gctggaacga ccccaacaac ccttttcgga gagacgagag
+     2461 tttgaaactc aaacgcattc caactctctg cttgtggaat acaccaaaaa gattggaagg
+     2521 tggtcagtgc aaaaatgcag atctcgtaag cctgcttttt gaagacgatt agaggccttt
+     2581 gtatacgtaa tttatctaat cttatataaa atatgcgcat ttagtgagtt aagttcctag
+     2641 aagaattccg cgctttttat ttaacaacgg catttttgca ttaccagcaa cgagttcaga
+     2701 gttgttagct ttccgttggt gtatttcaat ttacatgtaa gattttcctc acaagtttgt
+     2761 acatattacg tgcgtgtaat attgtgcctc atacgcagaa tttttccgaa cttgcattcc
+     2821 aaatcccatg atcttggatg ttagctttcc agtggccgct atttcatact tccaatcgat
+     2881 tttgagtaca tttctctgaa taatttgaat aattatagta agtgcagttg ta
+//
+
+LOCUS       OX031272                2064 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv41a (Pv_sp_3053.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031272
+VERSION     OX031272.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124557
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..2064
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            1..>2064
+                     /gene="Pv_sp_3053.t1"
+     CDS             40..>1983
+                     /gene="Pv_sp_3053.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv41a"
+                     /protein_id="CAH6763542.1"
+                     /translation="MFSAFSVFLGLTVLGNCLGDDCPPLSFASLKNGSITTTTRNGFR
+                     FSCDSGYFLAGPREVRCKRGGWIPALTQNPKCIRSEGFCDPPPALPHGKIWGNDFTVG
+                     SVVMYQCHPGYRMLGKNRRTCERNLAWSGVKPSCQDEEEPLQNVAVRLDKEFIKNVGS
+                     YSNDSRARSLDAASIQKGLELVILLDRSSSVEPVDFKMGVDFIKFLLREFGVHNGDNP
+                     VGTRAAVVTFGSQAEIVFNLDLVNITNPAEANKILDSIEPLGGGTAMVEAMTTIFTDI
+                     LPLLRLEAKKALFMITDGEPNVGDLGITPRDAASSLKEKNDFEIFTVGIGKGINTDFL
+                     TSIASEPPESHVFILKKYSQLKDMISIIRTLPEERPKPGPEKCGYIDESRKPTEYERW
+                     PWLAAVYTSFPKADVQQPGHFKMSLCAGALICRDWVLTAASCFHETNRREIVLSLREV
+                     FVVAGEHNILEIDKSQKNYYATDVQTHPDFDPFNPLLNNLALIRLNEAVPLNITFRPI
+                     CLPRTDLIRPLHEDLATNTSTAGWGRPLKLGFTHGINAATTNFNLRTKPIALAEEGEC
+                     LRRLKRKAMGNIFCAGVGESDCLGTIGSPIIAQDPNTEIRHILGVLTDKSDCNQGYSQ
+                     FLELRRYIPWIDGITNSCRLRHQM"
+ORIGIN      
+        1 ccccaggcaa atgtgagctg catgaagaac agggcagtca tgttttctgc tttttcagtt
+       61 ttcttggggt taacagtact aggaaattgt ttaggggatg attgcccacc attgtctttt
+      121 gcgtctctga agaacggttc aatcacaaca actacacgga atggcttcag attttcatgt
+      181 gatagtggat acttcttggc tggacctcgt gaagtacgct gcaagcgtgg tggttggatt
+      241 cctgctttga cacagaatcc aaagtgcata cgatcagagg ggttttgtga tccacctcca
+      301 gccttacctc atgggaaaat atggggtaat gattttacag ttggttcagt agtgatgtac
+      361 cagtgccatc ctggttaccg gatgctgggg aagaacagac gaacctgtga gaggaaccta
+      421 gcatggagtg gagtgaaacc gtcttgccaa gatgaagagg agcctcttca gaatgtagct
+      481 gtacgccttg acaaggaatt tataaaaaat gttggatcgt attcaaatga cagtcgtgcg
+      541 cgaagtctag atgctgcttc tatacagaaa ggcttggagt tggtgattct tctcgatcgg
+      601 tcgagtagtg tggaaccagt ggattttaag atgggtgtcg attttatcaa gttcctgctt
+      661 cgtgaatttg gggtgcataa tggtgacaat ccagttggta ctcgtgccgc agtcgtcacc
+      721 tttggaagcc aagctgaaat agttttcaac cttgacttag ttaacatcac taacccagca
+      781 gaagccaata aaatactgga ttccattgaa cctctaggtg gaggcactgc tatggtggag
+      841 gcgatgacaa caattttcac tgacatccta cctcttctga ggctggaagc taagaaggct
+      901 ttgtttatga taactgatgg agaaccaaat gttggagacc taggtatcac tccaagagat
+      961 gccgcatcat cactaaagga aaaaaacgat tttgaaatat tcactgtggg aatagggaaa
+     1021 ggcatcaaca cagattttct aacgagtata gcctcagagc caccggaaag ccacgtcttt
+     1081 atacttaaga aatactcaca gctaaaagac atgatttcca tcatcaggac tctgccagaa
+     1141 gagcgtccca aaccaggtcc agagaaatgt ggatatatag atgaatctcg aaaacctaca
+     1201 gaatatgaaa gatggccgtg gcttgctgct gtttacactt cattcccgaa agcagacgtt
+     1261 caacagcctg gacattttaa gatgtctcta tgtgcagggg cactcatttg ccgtgattgg
+     1321 gtgcttacag cggcatcctg tttccatgag accaatagaa gagaaattgt tttgtcactg
+     1381 cgggaagtct ttgtggttgc gggtgaacat aatattctcg aaattgacaa atcgcaaaaa
+     1441 aattattatg ccactgatgt tcagacgcat cctgactttg atccctttaa tccattgcta
+     1501 aacaatttgg ctctcatacg gctgaatgaa gcagtacctc tgaacataac atttagaccc
+     1561 atctgtttgc ccaggacaga tctgataaga cctctccatg aggacttagc gacaaacacg
+     1621 tcaacagcag gatggggtcg tcctctgaaa cttggcttca ctcacggaat aaatgctgcg
+     1681 accactaatt tcaatcttcg gacaaagccc attgctctgg ctgaagaagg cgaatgctta
+     1741 cgaagattaa aaaggaaggc aatgggaaac atcttttgcg ctggtgttgg agagagtgac
+     1801 tgccttggga ccattggttc acccattata gcacaagatc ctaacacgga aatacggcat
+     1861 atccttggag ttcttactga caagtcagac tgtaaccaag gttacagcca gtttcttgaa
+     1921 ctgagacggt acattccctg gattgatgga attacaaata gctgtcgatt gcgtcaccaa
+     1981 atgtaatatc agacttttaa aatgcaatgc aagtatgtat tctaatgaaa tcagaataaa
+     2041 atgttcattt atgtggaaaa aaaa
+//
+
+LOCUS       OX031269                2112 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv57a (Pv_sp_2795.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031269
+VERSION     OX031269.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124554
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..2112
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            complement(<1..2112)
+                     /gene="Pv_sp_2795.t1"
+     CDS             complement(<152..1936)
+                     /gene="Pv_sp_2795.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv57a"
+                     /protein_id="CAH6763539.1"
+                     /translation="MFPHQLLPLLAAAYMAWGIPTKAPSPRYFEIPLDPEDKLHLYWT
+                     VDYEEETVTMELRARVPDVYWVAVGFSNRGLVTNADFCFLWTDKRGKNQLQDVWTDEA
+                     GYVNVDDHNDCELLNLKRRGHVTRLAWSRKFDTCDPQDYYIEDGTTHVVYAVGKGPIR
+                     RLEGIRIVNEKHGFQRVHLLKNLAPAPVFPDDTQTITINNDKVHVPALETTYWCSLHL
+                     LPKGFENKKHIIQYAASIQEGNEPVVHHMEVFHCEVSPEQKLPPWNGPCHSDEKPTVL
+                     EACKRVLAAWAMGALPFYYPEEAGLPIGGPDFSRYVMLEVHYNNPELKADWIDSSGIT
+                     LWYTPTLREFDAGVMELGLEYTDKMAIPAHQESFTLTGYCVSECTRAGLPPEGIVIFG
+                     SQLHTHLTGIVVYTKHIRGGQELPELNRDNHYSTHFQEIRFLKRRVRVWPGDALLTTC
+                     HYSTMDRQNITLGGFAISDEMCVNYVHYFPKTDLEVCKSSIDSQVLNSYFRYMNQYND
+                     EPTSEDKGISDNYNSIHWSQNNGDFLHQLYYNAPLSMQCNKSSGDRFPGYWEGVPRTE
+                     VLYPLPPPKKKCFDKVRNNEDLISAVESK"
+ORIGIN      
+        1 aataaattac gtacaataca gacaatatct aactttttac aatatttcag agataccgag
+       61 aaaaatttgc aaatgtgtcc ggtgttctga aatgcgatgc ttttagtaga tgccggtggc
+      121 aattacaata aatgtaagtt ctggagcatc atttggattc gactgctgat atcagatcct
+      181 cattgttcct cactttgtcg aagcatttct tcttgggagg tggcaatgga tacaagacct
+      241 ctgttcttgg tacaccttcc cagtagcccg gaaatctgtc acccgaagat ttattgcact
+      301 gcatcgaaag aggtgcgttg taatacagtt ggtgaaggaa gtcaccgttg ttctgactcc
+      361 aatgtatgga attataattg tctgaaatcc ctttgtcttc agatgttggt tcgtcgttgt
+      421 attgattcat gtaacggaag tagctgttga ggacttgact gtcaatagaa cttttgcaca
+      481 cttctagatc ggtctttgga aaataatgaa cataattcac gcacatctca tcactaatag
+      541 caaatccacc caaagtaata ttttggcgat ccatggttga gtagtggcaa gtagtcaaga
+      601 gagcatcacc cggccaaact ctaacccttc ttttgagaaa cctgatctcc tggaagtgtg
+      661 tgctgtaatg attgtcccga ttcagctccg gcagttcttg acctcctctg atgtgcttcg
+      721 tatatacaac aattccagta agatgcgtat gtaactggga accgaagatc acaataccct
+      781 ctggtggtaa accagccctg gtgcactcgg agacgcagta tcccgtaagt gtaaaagatt
+      841 cctgatgcgc tgggatagcc atcttatctg tatattccag accaagttcc ataacacctg
+      901 catcgaattc ccttaaggtg ggtgtgtacc ataacgtaat tcccgaactg tcgatccagt
+      961 ctgctttaag ttcaggattg ttgtaatgca cttctaacat tacatatcga gaaaagtccg
+     1021 ggccgccgat aggaagaccg gcttcttcgg ggtaatagaa aggaagggcg cccatagccc
+     1081 aggcagccag aactcttttg caggcttcaa ggactgttgg cttttcatca ctgtggcagg
+     1141 gaccgttcca gggtggaagc ttctgctcgg ggctcacttc acagtgaaag acctccatat
+     1201 ggtgaacaac gggttcgttt ccctcctgaa tcgatgcagc gtactgaata atatgcttct
+     1261 tgttctcaaa tcctttagga aggagatgca gactgcacca gtaagttgtt tctaatgccg
+     1321 gaacgtgaac cttgtcattg tttatcgtta tcgtttgtgt gtcgtcagga aacactggtg
+     1381 ctggtgccaa attttttaga agatgaaccc tctgaaatcc atgcttttcg tttacaatac
+     1441 ggataccttc aagccttcgt atcggtccct taccgactgc ataaacaaca tgcgtcgtac
+     1501 catcctctat gtaataatct tgaggatcgc atgtgtcgaa cttcctggac caggctagtc
+     1561 tcgtaacgtg acctcttcgt ttcaggttaa gaagttcaca gtcattgtga tcgtccacat
+     1621 tcacatatcc tgcttcgtct gtccacacat cctgcagctg gttttttccc cttttatctg
+     1681 tccaaaggaa gcaaaagtca gcattggtga ctagtcccct attggaaaac ccaactgcga
+     1741 cccagtacac gtccggtacc cgggccctca gttccatggt aacggtttct tcttcatagt
+     1801 ccaccgtcca gtataagtga agtttgtcct cgggatctaa cggtatctcg aaatacctag
+     1861 gtgacggtgc cttggtaggg attccccatg ccatgtaggc cgcggccaac aacggtagaa
+     1921 gctgatgcgg gaacatctgt gctctgtcac cgctcggttc tgaactcact tcaaagtgcc
+     1981 atgataggca gacgacactt tatttctcat gcgccgtgga gccctcataa aagtttgccc
+     2041 ccacttgcat agggagggag gaaagaaaga tgaaagggga gggggagtgg ggagcgtgtc
+     2101 atcagtgctg cg
+//
+
+LOCUS       OX031268                1939 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv22a (Pv_sp_2566.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031268
+VERSION     OX031268.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124553
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..1939
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            complement(<1..1939)
+                     /gene="Pv_sp_2566.t1"
+     CDS             complement(<949..1752)
+                     /gene="Pv_sp_2566.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv22a"
+                     /protein_id="CAH6763538.1"
+                     /translation="MIPYWRETCQLSVLLLLTVSTLVTAGSKYLRKPKVFGKSIPDRD
+                     LDPRHQHTRQKIVVMHNFYRTRVDPPASDMLEMSWHKEAQESAQRWAEECQILTYDGI
+                     LGKYVEDYGSCGQNIFVSNEKVPWTFVGEAWFAERYDFSYGSYNNSVSEVGHYTQMVW
+                     NGSHRLGCGFHYCAKDVKKPFYNYVCNYCPMGNDPKRLGMPYSSGKPCSECIKHCKYK
+                     KLCTNTCPYADLWVNCAQLNVTWNDWLCSNPEHQRHRGCRATCLCPGKVI"
+ORIGIN      
+        1 cagcatacag gaaacttctg aaatagccta cgtaaatgcc tgtgtaaaaa ttcccctttc
+       61 ttctttctct ttcttttttt ttttttacac aaggtactct cattttcctc aacgaaaaat
+      121 gcgattcaga aaacaagaat tacccaaaat gaccttattc tttgctagtt tggctataat
+      181 atgacttaac tgtgcaagta tggaattcta cggataaaga aaactcttgt gaaagccacg
+      241 ggatgaatac tgaggacata tttagaggaa ctcgttcata tatatagcct catcggaatc
+      301 tcttctttca aaaattgtgt gtcagcagac atctaattat attcttacat tttgcaaatg
+      361 tatcttatgc gtggaataca gttattatta tcaatgccgg taacaaaaaa tttccatttt
+      421 gttagacttt agatttcgtg cttttgaaat acaatttaaa aatgtgaaaa gtgaggaact
+      481 gttttctttt ccacttgaaa tagccagaat gccataagct gtatgtggac cttaggtctc
+      541 gacagcccac atcgaataca aagagatgac ggatacatgt tattcatagg tatgttaaaa
+      601 gtccgggagt aactaattct atgcatataa ggcaggcaaa tggaaagaga ctatccatca
+      661 ccaactgact aatggaagcg aatggttgtg gttattaatt tgaaaaaatg caaaatttta
+      721 gtaattccct caggcgaaac aatattcgct tgtgaacgaa acgttttcaa caaacatact
+      781 ggtaatgtta tgtaacaact ggagatcatc tttgttattt acatgactac agagtaggac
+      841 actgtaagga cgaactttag tttttacttc aagaacatcc tctttttttc ttcttcagtg
+      901 acatcttata gtccatcaaa aacactccgt gtttcagctg cttgattaga taacttttcc
+      961 aggacacaag caggtggcac gacagcctct gtggcgctga tgttctgggt tgctacacaa
+     1021 ccagtcgttc cacgtaacat ttaattgggc gcagtttacc cacaggtctg cataagggca
+     1081 ggtgttcgtg cataactttt tgtacttgca atgcttgatg cattcagaac acggttttcc
+     1141 gcttgagtag ggcattccaa gtcttttggg atcgttcccc atcgggcagt agttacaaac
+     1201 ataattgtag aacggtttct tcacatcttt cgcacagtag tggaaaccgc atccaagtct
+     1261 gtggctgcca ttccaaacca tctgcgtata atgtccgact tcagatacag agttgttata
+     1321 gctgccatac gagaaatcat atcgttcggc gaaccatgct tctcctacaa atgtccatgg
+     1381 aaccttttcg tttgaaacga atatgttctg gccacaagaa ccataatctt caacgtactt
+     1441 gcccaaaatc ccatcgtatg ttaatatttg acattcttcc gcccaccgtt gagcactctc
+     1501 ctgagcctct ttgtgccagc tcatctccaa catgtcgcta gcaggtggat caactcgtgt
+     1561 tctataaaaa ttgtgcatta caacgatttt ttgtctcgtg tgttgatgcc ttgggtccag
+     1621 atcacggtca ggaatcgact tcccgaatac ttttggcttt cgtaaatatt tactgccagc
+     1681 agttaccagt gtactcacag ttagtagtag caaaacgctt agctggcatg tttctctcca
+     1741 gtatgggatc atcggcggtt gcaaaatttt ctagatacct tcacattaaa tcctaaacag
+     1801 tgaatttaac ttaatctgca tgaaacaagc ggttcgccga cagcttttta ttacgtagca
+     1861 ggctgatgac accaccaacg taacagattc caagccattc caaggcttga cgcagtcagt
+     1921 tccaagcagc tggtggaag
+//
+
+LOCUS       OX031265                2642 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv59a (Pv_sp_2198.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031265
+VERSION     OX031265.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124550
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..2642
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            complement(<1..2642)
+                     /gene="Pv_sp_2198.t1"
+     CDS             complement(<528..2450)
+                     /gene="Pv_sp_2198.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv59a"
+                     /protein_id="CAH6763535.1"
+                     /translation="MKTAVFCVLVCSIIAHPQRDSNIQGRYIRPSYQDGSNRSCGSGR
+                     CPGNRNQDSHPGGNNNKDNPGGRDKDRPAILGPDDWPSSSTGGRPGIGSDYQPDTVGG
+                     GGGSDKDRPAILGPDDWPSSSTGGRPGIGSDYQLKPGGEGTYEKDDYVPKPVSGGGGG
+                     GRDDYNPKPVTGGGGGGGRDDYNPKPVRGGDDYNPKPVRGGNDDYNPKPVRGGNDDYN
+                     PKPVRGGDDDYNPKPVRGGDDDYNPKPVRGGNDHNPKPGKEPWSPDTDRHPKPIPESN
+                     DNPKDDSYNDGSSKDNIRENIRPGGNCICVPYYQCKDGHIVTDGAGIIDARRKPNNEE
+                     ELPLDGKFKPPSCGPFHVCCNTPETSTVKPYEHRCGVRNPSGINSRILSPSNAGEADF
+                     GEWPWQAAVLKSEGTVNIFQCGGVLIDKYHVLTVAHCVFHLRKYNVFPLKIRLGEWDT
+                     QSTSEFLAHEDYKVSKIIIHPEFRNHSLWNDLAILKLEEAVLFAPHIDTVCLAKHDEN
+                     FAGQNCVVTGWGKDAYKGGTFSNVMKEVAVPVIDNYNCEEMLRKTRLGRFFQLHEGFL
+                     CAGGEHGLDSCKGDGGGPLVCYRKDRSYALAGIVSWGIDCGQPGVPGVYVKIQKFLDW
+                     ISKNTGLQLEDYWPKSY"
+ORIGIN      
+        1 gtctgaccct gcgcacctcc ccacgcggcc ctcaccggcc caacgcggcc cgcgacccta
+       61 tgttccacgg caacccctgt tcctcgcgat gcgcaccatc accaccctga gcttgtcgcc
+      121 gctttacgga aacaccctgt ataatcaaat cagtaaactt tagatatccg agactcctga
+      181 atttgatttg attgtaagaa ccagccaact tcacggcttc tgaatttaat ttggctagaa
+      241 ccaaatcaaa ttcggaaatc ctcagaaaag tgggtccaat tccaaaattt tcgggagtca
+      301 gtatttttta tttgagctgt aaccgacatt taatttcggg gctttctaca gattttgtcc
+      361 atttctgata ttttgccctt cagtacattt gttcctcaga aaattcctat tcaaacgttt
+      421 ccaggttttt ggatgttgca tcccagaaga cgacacactg gatgttacct tatcttcttc
+      481 ttcggcgagt gtagtttaat gtaaagaaat tgaagatgaa tatattaata ggatttgggc
+      541 caataatctt ccagttgtaa gcctgtattc ttgctgatcc aatccaggaa cttctgaatc
+      601 ttgacataaa ctcctggaac acctggctga ccgcagtcga tgccccagga cacaatgcct
+      661 gccaaggcat agctccgatc tttcctgtaa cagaccagtg gaccacctcc atcaccctta
+      721 caggagtcta aaccatgttc tccgcctgca cataaaaagc cttcgtgtaa ctgaaagaac
+      781 cttccaagcc tcgtcttccg taacatctcc tcacaattgt agttgtcaat gacgggaacg
+      841 gcaacctcct tcataacgtt agaaaaggta ccacccttgt aagcatcttt gccccagccg
+      901 gtaaccacgc agttttgtcc agcaaaattc tcgtcatgct tcgccaggca aacggtatcg
+      961 atatggggtg cgaagagcac agcttcttcc agttttaaga tggcaagatc attccaaagg
+     1021 ctgtggttcc ggaactcagg gtgtattatg attttcgaaa ctttataatc ctcgtgtgct
+     1081 aagaattcgc tcgttgactg agtgtcccac tcccccaagc gaattttcag agggaacacg
+     1141 ttgtactttc ttaagtggaa aacacagtgg gctacggtta acacgtggta tttatcaatt
+     1201 aacacgcccc cacactggaa gatatttacg gttccttcgg attttagtac ggctgcctgc
+     1261 caaggccact ctccgaagtc ggcttcacca gcattacttg gggataaaat gcgactgttg
+     1321 attccgctgg ggttccggac tccgcatctg tgctcgtagg gtttgacagt agacgtctca
+     1381 ggtgtgttgc aacacacatg aaagggacca catgaaggag gcttgaactt cccgtccaac
+     1441 ggtagttctt cttcattgtt tggcttcctt cttgcatcta ttattccagc accgtctgta
+     1501 acaatgtggc catctttgca ctgatagtaa ggcacgcaga tgcagtttcc acctggtcta
+     1561 atattctccc gtatattatc ttttgagcta ccgtcgttgt aactgtcatc tttcgggtta
+     1621 tcattggact cgggaattgg ttttggatga cgatcagtat ctggagacca aggttctttc
+     1681 cctggtttcg gattgtgatc attaccaccc cgtacaggtt tgggattata atcatcatca
+     1741 ccaccccgta caggtttagg attataatca tcatctccac cgcgtacagg cttgggatta
+     1801 taatcatcat taccccctcg cacgggtttc ggattataat catcattacc gccgcgcacg
+     1861 ggtttcggat tataatcatc cccacctctc acaggtttgg gattgtaatc gtctcttcct
+     1921 cctcctcctc ctcccccggt tactggcttg ggattgtaat cgtcccttcc tcctcctcct
+     1981 cctccagata ctggttttgg tacatagtcg tctttctcat atgtcccttc accaccaggt
+     2041 tttagctggt agtctgaacc gattccaggg cggccaccag tagatgaact gggccagtca
+     2101 tctggtccta aaatagcagg tcgatcttta tcgcttcctc cgccacctcc aacggtatca
+     2161 ggctgataat ccgaaccgat cccggggcga ccacccgtag acgaactagg ccagtcatct
+     2221 ggacctaaaa tagcaggtcg gtctttatct ctccctccag gattatcttt attgttgttt
+     2281 cccccaggat gagaatcttg gtttcgattc ccagggcacc ttccagaacc acaagatcgg
+     2341 ttgctgccat cttgatagga aggccgtata tatcgtccct gtatattact atccctttgt
+     2401 ggatgtgcta ttatggaaca caccagaaca caaaaaactg cagtcttcat gttaacacct
+     2461 tgaaacagaa accgcagaaa taaggcaacc caaaacaaag tttcttttgc actctatata
+     2521 agcagtgggt aagtcatatc caaatgaagg actgcttcga gggttgtcta ctttcgaaat
+     2581 ggggaaaagt ggcaacggac aacaagcaag acgagggttg tctactttcg aaatggggaa
+     2641 aa
+//
+
+LOCUS       OX031264                2451 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv42a (Pv_sp_2022.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031264
+VERSION     OX031264.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124549
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..2451
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            complement(<1..2451)
+                     /gene="Pv_sp_2022.t1"
+     CDS             complement(<101..1849)
+                     /gene="Pv_sp_2022.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv42a"
+                     /protein_id="CAH6763534.1"
+                     /translation="MEYKITKLCFLIFSFVCAVANPARRSYEQINEMHSKIIAIEDIL
+                     KSEERMISVLNMGIVSSSVDRLTKRVDHIVNLLEHGQQMPSGGTGRSTAVAPRDVVSN
+                     LQAIDARLRSLEETVEKVEQGVEKTDETFQKVEEVDRRTTQMKDDLNQKLRKMMNVIT
+                     ALYEMNKEMKTDMGARSSSSDDNDSRSTSSSSSSYAADFILENLEEMERKIREQFSVL
+                     GNELRTEMTSLRIVASSSGSRCGSVDFTDDDDDLQETGIQGRASPRSGRRVSGNSLAG
+                     GSASSVEDTLDVLVQSLGNSTREIREEIHQGIQDIDSKLTSISRLSCSEGLETSESVV
+                     SARKIPPPQQDVAAKSEVCSRVARNVTSPQSCADLRRGGATCDGVYVIFPQNVRAVRT
+                     LCDMTTEGGGWTVLMQRGDFNNKMSSFHKNWASYKNGFGDVEGEFWIGNDVIHLLSAQ
+                     DENILRVNLEAFDDDVLNLTYSSFSVADENDNYKLRLGVTVGTPSPASNSLRYHSNHP
+                     FSTFDKKNDNFEQNCAATYKGGWWFNGCYFGFLTGEYFRPGEKRENWQGILWYDWKGN
+                     ASLKGAQMKIRPKDFSP"
+ORIGIN      
+        1 gtttcttcac tttttctgca ctaaatagaa gatagtctga gaagaatgca tttaattact
+       61 tgagtagctg tacagctctt cactgttctt ttccttttta aggggaaaag tctttgggtc
+      121 tgatcttcat ttgagcgcct ttaagtgaag cattcccctt ccagtcgtac cagagaattc
+      181 cctgccaatt ctctcttttc tctccgggtc ggaaatactc tccagtgagg aatccaaagt
+      241 agcagccgtt gaaccaccat cctcccttgt aggttgcagc acaattctgt tcaaagttgt
+      301 cattcttctt atcgaaggtg ctgaatggat gattgctgtg gtaacgtaag ctgttggaag
+      361 caggactcgg tgtgccgact gtcactccca atctcaattt gtaattatca ttctcatctg
+      421 ctacactaaa agaggaatat gtgaggttca aaacatcatc atcgaaggct tccaagttga
+      481 ctcggaggat gttttcatcc tgggcagaca aaaggtgaat gacgtcgtta ccgatccaga
+      541 attctccttc gacatccccg aaaccattct tgtagcttgc ccagtttttg tggaagctgg
+      601 acatcttgtt gttaaaatct cctctttgca ttagaactgt ccatccacct ccttcagtag
+      661 tcatatcaca cagggtcctc actgctctca cattctgggg gaaaatgaca taaactccat
+      721 cgcaggtggc acctcctctc ctgagatcgg cgcaggattg gggcgatgta acattcctcg
+      781 caactctaga acagacttcg ctctttgcgg caacatcttg ctgaggcgga ggaatttttc
+      841 tggcactcac tactgactcc gaagtttcca gtccttctga gcaggacagc ctgctaatac
+      901 ttgtaagttt gctgtcgata tcctggatac cttgatggat ttcctcacga atctctcggg
+      961 tactgttgcc gaggctctga accaaaacgt ccagtgtatc ttctacgctt gaagctgatc
+     1021 cgcctgcgag cgaattgcca cttacccgtc taccagatcg ggggcttgct ctaccctgta
+     1081 ttccagtttc ttgcaaatca tcatcatcat ctgtgaaatc aacagaaccg catctgcttc
+     1141 cagagctgga agctacaatc cttaagcttg tcatctccgt gcgtaactcg ttacccaaaa
+     1201 cgctgaactg ctccctaatt ttcctctcca tttcttccaa attctcaagg ataaaatctg
+     1261 cagcataact tgagctgctg ctactcgtgc tcctagagtc gttgtcatcg ctgctgctac
+     1321 tacgagctcc catgtcggtt ttcatttctt tgttcatttc atatagggcg gtaatgacgt
+     1381 tcatcatctt cctcagcttc tgattaagat catctttcat ctgggtggtg cgtctatcca
+     1441 cctcttctac tttctggaaa gtttcatcag tcttttccac accttgctca actttttcaa
+     1501 cagtttcttc taaacttctc aatctagcgt ctattgcttg taagttactg acgacgtctc
+     1561 ggggtgctac agcagtcgat ctacctgttc caccactggg catctgttgt ccgtgttcca
+     1621 ggaggttgac gatgtgatcc acccttttgg tcagcctatc tacacttgag gaaacaatgc
+     1681 ccatattcag aacggatatc atcctctcct cgcttttcag aatgtcttct attgcaatta
+     1741 ttttagaatg catctcattg atttgctcat aagatcttcg cgctgggtta gcaacggcac
+     1801 aaacgaagga gaaaattaag aaacacagct tggtgatctt atattccatg atttatatga
+     1861 tacgtatttc gtcccaattg atatttagca gataaacgat gtcaatatta ttttgtcttc
+     1921 acacacgacg aacagctatc atttctagaa atgttgaaaa aaaataattt tttttcaggc
+     1981 ttttaagatg gctccctatc gcattaaact tgcaatgaat ttgcatcaga acttatccct
+     2041 gaaaatagga gagttcgttc ccagttcttt cagagtttta agtccacaga gaaaactaac
+     2101 gcggttcaca gcctcacgtc tggaagatga ttcctgaagt gaaatatttc gttgctgaac
+     2161 gactgaagaa atcttcaacc taatctcttg atgaacgagt cacaaaaaaa atgctacaag
+     2221 atgtgcgtaa tcacaaatct atcatcttca gtgagtaagg gaaccctgcc ggcgatgaac
+     2281 tgcgtatctt cttttcgtag gggtgtccga gtttataata gtcttcctca ctccgtcgat
+     2341 gattcaaaag aaatgacgca catgcccgtc cactaattgt tcccaggact gaaagaattt
+     2401 ttttcactgc ttcttcgaag tcggaaacta attccagacg tcttaatgaa c
+//
+
+LOCUS       OX031263                6894 bp    mRNA    linear   BCT 02-JUL-2023
+DEFINITION  Escherichia coli mRNA for U-theraphotoxin-Pv37a (Pv_sp_1715.t1
+            gene), isolate SE_Pverdolaga1.
+ACCESSION   OX031263
+VERSION     OX031263.1
+DBLINK      BioProject: PRJEB21288
+            BioSample: SAMEA104124548
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Salinas-Restrepo FELIPE,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2022) UNIVERSIDAD DE ANTIOQUIA, Toxinology,
+            therapeutics and alimentary alternatives, Street 62 No 52 59 Lab
+            631, Medellin, Antioquia, Colombia
+FEATURES             Location/Qualifiers
+     source          1..6894
+                     /organism="Escherichia coli"
+                     /mol_type="mRNA"
+                     /isolate="SE_Pverdolaga1"
+                     /db_xref="taxon:562"
+                     /country="Colombia:La Estrella, Antioquia"
+                     /collection_date="2013"
+     gene            1..>6894
+                     /gene="Pv_sp_1715.t1"
+     CDS             218..>2554
+                     /gene="Pv_sp_1715.t1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="U-theraphotoxin-Pv37a"
+                     /protein_id="CAH6763533.1"
+                     /translation="MAVSYGRANKVYAVVLVILHGIIMAAAHLSSTEDSDINRRLASS
+                     EGVSSSTPTVVDHILLFKGDLNESVDSSDSFGGTNEKDTTNKTTEVTDSTHFYEDDAN
+                     ISSVKDAEGQTGNHTAWGDNTRISDKKQDEISIYKILKKDSVNMFRKMREYVKKGTNN
+                     ISNILKPSNGSFVLASQNVSKNSVQDSGRVKSVEGQSELNFSMSDVLDESRSLIQEVT
+                     ANSSESDFLDEQEQTSQSDERSDVTDDPELNDGEFVSNGDNDVQEVREWNFEVILPNE
+                     SGSYDSDKNSPSKKIPSPKSVSKVDIETPVRSRSVSDLVSKFEELIAMPSEIKFFNNR
+                     RGLTANFDFGDSEGDTKSEKANPGLTEQGTYQKNSFGSQADDMKSRLTTFPPSVLTVP
+                     RRRGNIAVPPPNVAAPPPDVNISKAELDDLLREFKKASPRNAVIFPSGSPDKKDGCLT
+                     VDNGAGECTVFMECRQAVVELKTKFPTICTWDGDVPIVCCPKEKQEDIDDDMLPRTLR
+                     LADCGRRAAVAKRPTIAGGVEAQPGAWPWMAGIYIRNFGRDVFLCGSAIVSDKYVITA
+                     AHCFGQRGGSVIQTARYAIFVGSLKVKEGTLHTLSSITIHPQYKPREHYNDLAVIEVR
+                     ERMTFSTYVRPICLPSPGEFQDIDGEDVTVIGWGDQDFGGVQASVLREVTVQVIANKD
+                     CNDAYTKLRGSSIPEGITNKFICAGVPEGGKDACQKDSGGPLMVARDGVWSLVGIVSF
+                     GYQCAQAGYPGVYTRITEYIDWLDESINVEDSSPVPVAQ"
+ORIGIN      
+        1 ctcgcgtgtc gatgagcatt ccttttgcgg ttacgacttc ttgcaaagaa ccgcgttact
+       61 gaaaagcttt cactgtcatg tgaagagaaa tacttttttc ttttaaagtt gcatttggaa
+      121 atatcaccga gggaattata acaactgctt tgaatacatc gacgtagttt ttatctgctt
+      181 taccgtagag ggtgaaaata ggaaccttca gcacagaatg gccgtttctt atggaagagc
+      241 aaacaaagtt tacgcagtcg tccttgttat cctacatgga attatcatgg cggcagctca
+      301 tctttcttcc accgaagatt cagacattaa cagaagactt gcttcaagtg agggtgtcag
+      361 cagttcaaca cctaccgtag tggaccatat acttttattt aaaggtgatc tcaatgaatc
+      421 tgtagatagc agtgattctt ttggtggaac aaatgagaaa gatactacaa ataaaacaac
+      481 agaagtcaca gactctactc atttttatga agatgatgcg aatatttcat ccgtgaagga
+      541 tgcggaaggt caaaccggaa accacactgc ctggggggat aatacaagaa tttctgataa
+      601 gaaacaggac gaaattagta tttataagat actgaaaaag gattctgtaa atatgtttcg
+      661 taagatgcgc gaatatgtga agaaaggtac aaataacatt tcaaatatac ttaaaccgag
+      721 taatggaagt tttgtactgg cttctcaaaa tgttagcaaa aattcagttc aagattctgg
+      781 aagagttaag tcagttgaag gccaaagtga gctaaatttt tcaatgagtg atgtgcttga
+      841 tgaatccagg agcttgatcc aagaagttac ggcaaacagc agtgagtcag attttcttga
+      901 tgaacaagag caaacatcgc aatctgatga aaggagtgat gtaaccgatg atccggagtt
+      961 gaatgacgga gaatttgttt ccaatgggga caatgatgtt caagaagtga gagaatggaa
+     1021 ctttgaagtg attcttccaa atgaaagcgg aagttatgat tcagacaaaa actccccaag
+     1081 taaaaaaatc ccttctccga aatctgtgtc aaaagtcgac attgagacac cagtacgtag
+     1141 caggagcgtc tcagatttgg tatcaaagtt tgaggagcta atagccatgc catctgagat
+     1201 caaattcttt aacaacagga ggggtttgac ggcgaatttc gatttcggag acagcgaagg
+     1261 agatactaaa tcggaaaagg caaatccagg attaacagaa cagggaactt accaaaagaa
+     1321 ttcgttcgga tctcaagctg atgacatgaa gtccagactg acaacatttc cacccagcgt
+     1381 cttgactgtt ccacgaagga gaggtaacat cgctgtgcca ccacctaacg tcgctgcgcc
+     1441 accacctgac gtgaatattt ccaaggctga attagatgac ctcctcagag agtttaagaa
+     1501 agcctcccct agaaacgctg tgatatttcc aagtggaagc cccgacaaaa aagatggctg
+     1561 cctgactgta gacaatggag ccggggagtg cactgttttt atggaatgta gacaggctgt
+     1621 tgttgaactg aaaacgaaat ttcctaccat ctgcacctgg gacggagacg taccaatagt
+     1681 ttgctgcccg aaggagaaac aggaagacat cgacgatgat atgttaccca gaacattgcg
+     1741 gctggcagac tgcggcagaa gggctgcagt tgcgaaaaga ccaactattg ctggaggagt
+     1801 ggaggcgcaa cccggtgctt ggccttggat ggcaggcatc tacatcagga actttggaag
+     1861 agatgttttc ctatgcggat cagcaattgt cagcgataaa tatgtcatca cagcagctca
+     1921 ttgttttggt cagagaggag gaagtgttat acagactgca agatacgcaa tcttcgtggg
+     1981 aagtctgaaa gttaaagaag gaacacttca caccttgtct tccattacca tccacccaca
+     2041 gtacaagcca cgagaacatt acaatgattt ggctgtgata gaagttaggg agaggatgac
+     2101 attctcaaca tacgttcgac ccatttgcct accttcaccc ggagagtttc aagatataga
+     2161 tggagaagac gttacggtca ttggttgggg tgatcaggat tttggtggtg tacaagccag
+     2221 tgtcttacgc gaagtcacgg ttcaagtaat tgcgaataaa gactgcaacg atgcctatac
+     2281 aaaactcaga gggagttcta tacctgaagg aatcacaaac aagttcatct gcgctggtgt
+     2341 tcctgaggga gggaaggacg cctgtcagaa agattctgga ggtccactga tggtagcaag
+     2401 ggatggagtg tggtcattgg tggggatcgt ttctttcgga tatcagtgcg cacaagctgg
+     2461 atatcctgga gtgtatacaa ggatcactga gtacattgat tggttagacg aatcaatcaa
+     2521 cgttgaggat tcttctcctg ttccggttgc acaatgattt tctttaaaaa atttagcaga
+     2581 gataccagtt tttgtccatg ctttgtgtac ccagcaaagt tcttagctag atgtgaatat
+     2641 acatgcaaag caaaagaatt taatttttct taaatttctg aaagtattcc caggggctac
+     2701 ttcgagaagc cggaattaaa ggtgagatac tttaggtact gccggttgaa agaattcgct
+     2761 agtcttaggc tgtcttcgaa ccagcgacct catggttcat aaatcaagcg tcttaccact
+     2821 agatcactca actaagacag ttggccagtc atctcctctg tgtcttcttt aatggtccgt
+     2881 gacatcacct cttttttttt tttttaactt tcaacacgtt tcatcatacc agccaaacca
+     2941 gtcagatttc gggtaagcca cagtcggaag tcatatccgg gttcctacca atcgggcgcc
+     3001 aatttgtaag aattcgccca catttgtaag aattccttta acacagctcc aaattcaagt
+     3061 cacgccacat tttccttata ataatgagtc agtttcttta tctatgggac tggcttaaac
+     3121 ataaaaagac atacaggtaa tggaaaaaaa atggaaactc ctgtaccgat gtattaatca
+     3181 tggaccatag cgggcgtcaa gtacagtctg ttttcttcga ggcatagagt ttgacaatgt
+     3241 ctgaaactct gtatgaggga ttttacatca ttcgtccacc agaaactgga tcaactcccc
+     3301 ttattcatcg gaagtggaaa tcgttgcctt agacgtcgtt ccaaaatatc ccataaacgt
+     3361 tctttcggat ttaagtccgg tgactgagat ggccatggca tacagggcac ctcactgtca
+     3421 tgttcttcgt accagtgggt ggccacattt tctcgatgaa ttggagaatt atcgtgatga
+     3481 aacacaactg tctctgtatg acaaaattgc ttccactaag gattgttgaa taccgttgag
+     3541 catccacgtt accttctaat gcgaagagtt cacccaaacc atgccatgag aatgcatccg
+     3601 aagccacgat cgaaccacct caacccttca ctgtaggaaa caagcattca gtattgtaac
+     3661 tgctttggct gattctaccg gtctcgtcca tttgcagcaa agagtgtgat ggctgattca
+     3721 tcagacaata tgacatttct ccactgttgc agcatccttt acttgtgatc tttgcaccgg
+     3781 tagacgcgac gacgtgtgtt gttaggagtg attaagagct tatgaagtgc aacgcaacca
+     3841 tgatttccag ctctgtgtag ttctcgacgc aatgttttga tcgaaataag ctcctcacgt
+     3901 ccgttgttga aattagcgta caactggtca gctgtagcca ccctgttttt cttggcacag
+     3961 cgctgtaatg gtcgcacgtt cctcacttgt ttgtcttcat gcggacatga ccttggagac
+     4021 tgtccctcgg gaaacatttg taatttcaga cgttctggtt actgtagccc ctgccaggcg
+     4081 cgcttcaaca attgtacctc tttcaaattc accagggtcc tctcttgacg ccaatctaac
+     4141 aaccgctaac ctggattttg cttttatgcg caggactcta accataccag tattgtactt
+     4201 acatatcaca tgcattcgtc aggggcgcgt cgtagaaagt gcatcgcaga aaccaatggc
+     4261 ttgcactgat agcttggtgt ttccattttt tgcccattac ctgtatattg tgtatgtaaa
+     4321 agcgtatgca gtattattgg aaaactcttg tctgtgcatt ttcagcgcgt attgttttta
+     4381 atcctttttc tggttaccca gaaatgattc caaacggttt ccgtacatgg tacgaaatag
+     4441 catccaacac aatttgccct gcaaaaaatt gttttcttca tattcctcag ccttgagtag
+     4501 cttctggagt tgatgcactg tgtcagtttt tttaaaaatt aaaaacctga cacaggcacc
+     4561 gttcagatgg gtgacttaag accgaatttt tattttgtaa tctgaagatt atgttttaaa
+     4621 ttaagggtac attttctaat ttggaagtgt aaacagctta atattatgca tttccactga
+     4681 ctgttccatt gtatatgaac aacgtttcag ttaatcagac cggaagggtg atacacgaaa
+     4741 tgtcatagca tttacgtttt gtacaaaatt tttattagta acaaaagagc gggacattat
+     4801 gcacagaatt aatcagaaaa gcgtggaaac gtatgtctaa gggattatga gttttttttt
+     4861 aagatctctc gaagatacga cataaatctt tgggtaacgt gtggcgtatc cgctgcaaga
+     4921 ttggggttct aagatgtaat caagttcctg gtctccttgc tttgttttca caaaacttca
+     4981 gaaaaagaag taacttagat tcacgtccgg taggtgacat cgcaagctac tgattgaaga
+     5041 tgacgctcaa gggacggttg agtgtcgagc ggaaagctaa agctgtgtgg tttttcggga
+     5101 aaaaaagtaa gttctattct gggtcatgca acaacctcga attactcacg agacagttac
+     5161 ggataagaag tttctcaaat aaagcaagca aaccaagcac acagaaaaac tcagggaact
+     5221 gcttcaggta gctgtttcgg gcataacaaa cccttgtcag tgaagttcgt gtgctgttct
+     5281 tcccatcgtt gtggctggct tttacagtca gatatttttt aactatttag cggtagtaac
+     5341 caaggcagta cgcctacaat tttctcctga agatggcgtt gaatattact ctcggaaggc
+     5401 agaacgccta tcatgttttt agtgcgacag cccgatgaag ctcccattaa tatcaagcta
+     5461 ttttgagact tcttcataaa gatgggttta actgcttttg gtcaaacaaa gaactgagct
+     5521 aagcacacaa aaatagaata acacaggata ttgcttcaga cagctgtttc ggccataagt
+     5581 aaccctcgtc agtgaagccc ctttcctgtt cctctcatcg ctgtgattgg cttttttact
+     5641 gtagtgaggc tttttcactc taactattta gcggttgaaa tcaaggcagt acgcctatca
+     5701 tttcctcctg caggggcggt gcaagttgct ttcggaaggc aaacgcctac cgttttttaa
+     5761 gtgctaaaga agttgctgtt tggtctccat ttcgagttat gggatcatcg ggccattttt
+     5821 cttcgacgcc gcattgaact ctgagctctg cccggatatg ttgcgaaagt tttatacctg
+     5881 aaatcttggc aactggacta gcgatccata catagttgtt cgtacatgat gaaacacatc
+     5941 catgtacaga gtacgctgtt ctggagttga agagcagctt ccatatactc gaacgttcta
+     6001 gcatgaaaag ttttgttttt atgtgaagtc gaatcggatt tccgaacgtc atgatggcgg
+     6061 cagaatgtgg ccactccaca tctcgatgtg aatccgtgtg tttcctttct gtggggtttc
+     6121 ctgaaagaga agctgcatct aagaagacca gcaatattgt tagattgcag aaccctaatc
+     6181 gtgcagtagc tatgctgcac gttatacaag gatttatgtc gtaaagtgat tgccaatgaa
+     6241 agggtgtatc tttaaaagac tgaagacacg aaaggaagcc acactaaaca tctcatccac
+     6301 tgaacataca tatccgggct tttctgagtg attctgtaag taacatgccc cacgtttgtc
+     6361 aataataagg tctgtatata cactatctga ccaaaagtat ctgaacacct gctgcttcga
+     6421 aaacttcccg ttatatgaga ggtaataatt agctggtcca cccttcgctg ccatcacaca
+     6481 ctccactctt ctcgaaaggc tttccactag ttgttagtac gttgtcgtgg aagtttgcat
+     6541 cccgtcttca ctgagggcaa tagtgagctc ggtcactgat ttcggacgat gaagtcttgg
+     6601 tttcaaacgg cgttctaatt catcccttag gtgttctata ggattgatat gcagaccagt
+     6661 caagttgttc aacgcacata ttagaaatca ttcttgtact gacctcgcac aggtgcatta
+     6721 tcatgttggt acaggaaagg tccttatccg gagtgttgcc acaaagttgg aagcacagaa
+     6781 ttgtctagga tgttctcata ggcctcagcg ttaagggtcc tcgtcactgg aaccagggga
+     6841 cctagcccaa accatgtaaa tagcccatac cagaatgcct cctccaccaa actt
+//
+
