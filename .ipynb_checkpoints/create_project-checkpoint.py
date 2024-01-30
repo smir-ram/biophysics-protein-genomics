@@ -23,6 +23,7 @@ def create_project_structure(root_dir):
 
     files = [
         'data/dataset.py',
+        'data/README.md',
         'models/architecture.py',
         'models/loss.py',
         'models/metrics.py',

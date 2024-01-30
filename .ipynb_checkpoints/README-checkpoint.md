@@ -1,7 +1,19 @@
+![Banner Image](biophysics-protein-genomics/ProteinStructurePredictionCNN/images/banner-bpg.png)
+
 # Biophysics & AI
 
 Exploring the intersection of artificial intelligence and the intricate realms of proteins and genomics has been a captivating journey for me. Delving into the intricacies of molecular biology, my experiments with AI have been centered on deciphering complex biological data, elucidating protein structures, and unraveling genomic mysteries. Through a multifaceted approach, I've harnessed AI algorithms to analyze vast datasets, predict protein interactions, and contribute to advancements in genomics research. This immersive exploration has not only deepened my understanding of the biological intricacies at play but has also unveiled the potential of AI in revolutionizing our comprehension of the fundamental building blocks of life.
 
+
+
+## protein-ligand interaction
+To-be-moved
+
+## molecular property prediction (small protein/ligand: binding)
+To-be-moved
+
+## molecule generation (small protein/ligand)
+To-be- moved
 
 ## ProteinStructurePredictionCNN
 
@@ -11,9 +23,7 @@ Exploring the intersection of artificial intelligence and the intricate realms o
 
 This algorithm leverages the combined ability of two deep learning techniques, including a combination of convolutional neural networks (CNNs) and generative stochastic networks (GSNs), to achieve state-of-the-art accuracy in predicting the secondary structure of proteins. By effectively capturing complex dependencies and patterns in protein sequences, DCGSN offers a powerful tool for researchers and practitioners in the field of bioinformatics and structural biology to improve the accuracy of secondary structure prediction, ultimately advancing our understanding of protein functionality and interactions. Additionally, Deep Convolutional Neural Fields (DeepCNF) is used to refine the protein secondary structure prediction; this combines the power of deep learning and graphical models to enhance accuracy further. The method leverages deep convolutional neural networks to capture informative features from protein sequences, facilitating precise secondary structure predictions to build whole protein structures.
 
-
-Dataset
-
+-[ ] Transformer (with attention) implementations (AA sequence)
 
 ## CodonCraft ProGen: Precision Translation Model for Optimal Bacterial Expression (with Attention)
 
@@ -22,6 +32,9 @@ Dataset
 > 1. BERT (with Attention)
 
 > 2. GPT-esk Transformer (uni-directional)
+
+-[x] project: code moved from private git
+-[ ] data needs to anonymized 
 
 
 # Data
