@@ -1,2 +1,11 @@
-ProteinStructurePredictionCNN/data/raw/*
 ProteinStructurePredictionCNN/data/raw_0
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
