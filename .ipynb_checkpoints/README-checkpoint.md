@@ -1,4 +1,4 @@
-![Banner Image](biophysics-protein-genomics/ProteinStructurePredictionCNN/images/banner-bpg.png)
+![Banner Image](ProteinStructurePredictionCNN/images/banner-bpg.png)
 
 # Biophysics & AI
 
