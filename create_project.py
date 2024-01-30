@@ -14,6 +14,7 @@ def create_project_structure(root_dir):
         'data/processed',
         'models',
         'utils',
+        'images',
         'config',
         'notebooks',
         'experiments/experiment_1/logs',

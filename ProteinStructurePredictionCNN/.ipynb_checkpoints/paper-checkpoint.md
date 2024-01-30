@@ -1,5 +1,5 @@
+![Banner Image](images/ProteinDesign.png)
 # Predicting Protein Tertiary Structure from Sequences Using Deep Learning
-
 
 Protein structure prediction represented a longstanding challenge in computational biology, bearing substantial implications for comprehending protein functionalities and interactions. In this white paper, we presented an integrated approach to predict protein tertiary structures by amalgamating techniques from two seminal papers: "Deep Supervised and Convolutional Generative Stochastic Network for Protein Secondary Structure Prediction" authored by Jian Zhou and Olga G. Troyanskaya (2014) and "Protein Secondary Structure Prediction Using Deep Convolutional Neural Fields" by Sheng Wang et al. (2016). The objective was to guide researchers and practitioners in the field of structural biology through the process of predicting whole protein structures from amino acid sequences, harnessing deep learning methodologies.
 
