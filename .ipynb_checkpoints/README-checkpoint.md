@@ -5,12 +5,14 @@ Exploring the intersection of artificial intelligence and the intricate realms o
 
 ## ProteinStructurePredictionCNN
 
-> Reference
-
 > Jian Zhou and Olga G. Troyanskaya (2014) - "Deep Supervised and Convolutional Generative Stochastic Network for Protein Secondary Structure Prediction" - https://arxiv.org/pdf/1403.1347.pdf
 
 > Sheng Wang et al. (2016) - "Protein Secondary Structure Prediction Using Deep Convolutional Neural Fields" - https://arxiv.org/pdf/1512.00843.pdf
 
+This algorithm leverages the combined ability of two deep learning techniques, including a combination of convolutional neural networks (CNNs) and generative stochastic networks (GSNs), to achieve state-of-the-art accuracy in predicting the secondary structure of proteins. By effectively capturing complex dependencies and patterns in protein sequences, DCGSN offers a powerful tool for researchers and practitioners in the field of bioinformatics and structural biology to improve the accuracy of secondary structure prediction, ultimately advancing our understanding of protein functionality and interactions. Additionally, Deep Convolutional Neural Fields (DeepCNF) is used to refine the protein secondary structure prediction; this combines the power of deep learning and graphical models to enhance accuracy further. The method leverages deep convolutional neural networks to capture informative features from protein sequences, facilitating precise secondary structure predictions to build whole protein structures.
+
+
+Dataset
 
 
 ## CodonCraft ProGen: Precision Translation Model for Optimal Bacterial Expression (with Attention)
@@ -24,7 +26,21 @@ Exploring the intersection of artificial intelligence and the intricate realms o
 
 # Data
 
+## CodonCraft
+
 > https://www.ncbi.nlm.nih.gov/home/develop/api/
+
+## ProteinStructurePredictions
+
+> CullPDB53 Dataset (6125 proteins):The CullPDB53 dataset is a non-redundant set of protein structures from the Protein Data Bank (PDB). https://www.rcsb.org/.
+
+> The CB513 dataset is often used for protein secondary structure prediction. https://www.princeton.edu/~jzthree/datasets/ICML2014/.
+
+> The Critical Assessment of Structure Prediction (CASP) datasets are used for protein structure prediction and related tasks.  http://predictioncenter.org/.
+
+> CAMEO Test Proteins (6 months): The CAMEO (Continuous Automated Model EvaluatiOn) test proteins are used for protein structure prediction evaluation. http://www.cameo3d.org/sp/6-months/.
+
+> JPRED Training and Test Data (1338 training and 149 test proteins): The JPRED dataset provides training and test data for protein secondary structure prediction. http://www.compbio.dundee.ac.uk/jpred4/about.shtml.
 
 # Project Structure
 
