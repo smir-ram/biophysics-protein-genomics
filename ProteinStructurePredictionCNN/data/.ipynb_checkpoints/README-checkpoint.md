@@ -3,7 +3,6 @@ This dataset provides information on various features associated with protein se
 # Features
 The features are categorized as follows:
 
-## Amino Acid Residues (Features 0 to 21)
 ## N- and C-Terminals (Features 0 to 1)
 These features provide information about the N- and C-terminals of protein sequences.
 They offer insights into the terminus regions of the proteins.
@@ -39,8 +38,10 @@ V: Valine
 X: Represents "synthetic/man-made" amino acid, ion/ligand/small-molecule
 Y: Tyrosine
 
-# Labels - Secondary Structure Labels (Features 26 to 33)
+# Labels
 These features represent secondary structure labels associated with protein sequences.
+
+## Secondary Structure Labels (Features 26 to 33)
 The sequence of secondary structure labels includes: 'L', 'B', 'E', 'G', 'I', 'H', 'S', 'T'.
 
 label representations are as follows:
@@ -71,10 +72,10 @@ The 'T' label is assigned to residues in a turn or loop that connects two strand
 
 
 
-## Usage
+# Usage
 Commonly utilized dataset for various tasks, including protein structure prediction, secondary structure analysis, and sequence profiling. The dataset's diverse set of features provides valuable information for protein-related studies.
 
-## Citation
+# Citation
 
 1. CullPDB53 Dataset (6125 proteins):The CullPDB53 dataset is a non-redundant set of protein structures from the Protein Data Bank (PDB). https://www.rcsb.org/.
 

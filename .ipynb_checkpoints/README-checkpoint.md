@@ -88,3 +88,7 @@ project_root/
 |-- requirements.txt       # Python dependencies file
 |-- README.md              # Project documentation
 ```
+
+# Note
+
+I give sample anonymized data (50 MB; <project>/data/processed/) to run/test models. Code to curate and preprocess your own complete dataset will also be provided. These models are POCs (proof of concepts) that can scaled and tuned for particular use cases. 
