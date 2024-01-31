@@ -64,9 +64,11 @@ These features provide information about the N- and C-terminals of protein seque
 They offer insights into the terminus regions of the proteins.
 ## Solvent Accessibility (Features 33 to 34)
 These features include both relative and absolute solvent accessibility values.
-Absolute accessibility values are thresholded at 15, while relative accessibility values are normalized by the largest accessibility value in a protein and thresholded at 0.13
+Absolute accessibility values with probe radius 1.3 (roughly the radius of water molecule), while relative accessibility values are normalized by the largest accessibility value in a protein.
+
 ## The original solvent accessibility values are computed using the DSSP method.
 These features describe the accessibility of amino acids within proteins.
+
 ## Sequence Profile (Features 35 to 56)
 The sequence profile features provide detailed information about the occurrence of amino acid residues.
 The order of amino acid residues in the sequence profile is 'ACDEFGHIKLMNPQRSTVWXY', which differs from the order used for amino acid residues.

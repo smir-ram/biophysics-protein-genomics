@@ -23,7 +23,7 @@ To-be- moved
 
 This algorithm leverages the combined ability of two deep learning techniques, including a combination of convolutional neural networks (CNNs) and generative stochastic networks (GSNs), to achieve state-of-the-art accuracy in predicting the secondary structure of proteins. By effectively capturing complex dependencies and patterns in protein sequences, DCGSN offers a powerful tool for researchers and practitioners in the field of bioinformatics and structural biology to improve the accuracy of secondary structure prediction, ultimately advancing our understanding of protein functionality and interactions. Additionally, Deep Convolutional Neural Fields (DeepCNF) is used to refine the protein secondary structure prediction; this combines the power of deep learning and graphical models to enhance accuracy further. The method leverages deep convolutional neural networks to capture informative features from protein sequences, facilitating precise secondary structure predictions to build whole protein structures.
 
--[ ] Transformer (with attention) implementations (AA sequence)
+- [ ] Transformer (with attention) implementations (AA sequence)
 
 ## CodonCraft ProGen: Precision Translation Model for Optimal Bacterial Expression (with Attention)
 
@@ -33,8 +33,8 @@ This algorithm leverages the combined ability of two deep learning techniques, i
 
 > 2. GPT-esk Transformer (uni-directional)
 
--[x] project: code moved from private git
--[ ] data needs to anonymized 
+- [x] project: code moved from private git
+- [ ] data needs to anonymized 
 
 
 # Data
