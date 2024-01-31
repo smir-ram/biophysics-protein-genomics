@@ -2,16 +2,16 @@ import torch
 import torch.nn as nn
 
 class CNNModel(nn.Module):
-    def __init__(self):
+    def __init__(self, inps=21, out=8, dropout=0.3):
         super(CNNModel, self).__init__()
         # Define your model architecture here
-        self.conv1 = nn.Conv1d(in_channels=20, out_channels=128, kernel_size=11, padding=5)
+        self.conv1 = nn.Conv1d(in_channels=inps, out_channels=128, kernel_size=11, padding=5)
         self.relu1 = nn.ReLU()
-        self.dropout1 = nn.Dropout(0.3)
+        self.dropout1 = nn.Dropout(dropout)
         self.conv2 = nn.Conv1d(in_channels=128, out_channels=64, kernel_size=11, padding=5)
         self.relu2 = nn.ReLU()
-        self.dropout2 = nn.Dropout(0.3)
-        self.conv3 = nn.Conv1d(in_channels=64, out_channels=num_classes, kernel_size=11, padding=5)
+        self.dropout2 = nn.Dropout(dropout)
+        self.conv3 = nn.Conv1d(in_channels=64, out_channels=out, kernel_size=11, padding=5)
         self.softmax = nn.Softmax(dim=2)
 
     def forward(self, x):

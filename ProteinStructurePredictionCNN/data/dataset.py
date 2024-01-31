@@ -9,15 +9,18 @@ import pandas as pd
 import numpy as np
 
 sequence_len = 500
-total_features = 57
+
+nc_sasa = 4
 amino_acid_residues = 21
 num_classes = 8
-feats = amino_acid_residues +4
+total_features = nc_sasa+amino_acid_residues+num_classes
+
+feats = nc_sasa+ amino_acid_residues
 
  
 
 
-def load_dateset(data_file_path):
+def load_dataset(data_file_path):
     data = pd.read_csv(data_file_path)
     return np.reshape(data.values, (data.shape[0],sequence_len,feats))
 
