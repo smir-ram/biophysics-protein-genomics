@@ -32,6 +32,7 @@ X: Represents "synthetic/man-made" amino acid, ion/ligand/small-molecule
 ## Secondary Structure Labels (Features 22 to 30)
 These features represent secondary structure labels associated with protein sequences.
 The sequence of secondary structure labels includes: 'L', 'B', 'E', 'G', 'I', 'H', 'S', 'T', 'NonSeq'.
+
 Here's what each of these labels represent:
 > L (Loop): 
 This label is used to denote regions in a protein where the backbone does not form a regular secondary structure element like an alpha helix or beta sheet. Loops are often flexible and connect different secondary structure elements.
@@ -57,7 +58,7 @@ The 'S' label represents residues in a bend or a region where the protein backbo
 >T (Turn): 
 The 'T' label is assigned to residues in a turn or loop that connects two strands of a beta sheet. Turns facilitate the folding of beta sheets.
 
->NonSeq (Coiled-Coil): Propensity to wind around each other in a right-handed or left-handed supercoil. This winding creates a characteristic coiled or loop (any other type)
+>NonSeq (Coiled-Coil): Propensity to wind around each other in a right-handed or left-handed supercoil. This winding creates a characteristic coiled or loop (any other type); Disordered proteins segments.
 
 ## N- and C-Terminals (Features 31 to 32)
 These features provide information about the N- and C-terminals of protein sequences.
@@ -72,7 +73,7 @@ These features describe the accessibility of amino acids within proteins.
 ## PSSM - position-specific scoring systems (Features 35 to 56)
 The sequence profile features provide detailed information about the occurrence of amino acid residues.
 The order of amino acid residues in the sequence profile is `ACDEFGHIKLMNPQRSTVWY-`, which differs from the order used for amino acid residues.
-These features offer a comprehensive view of the amino acid composition within protein sequences.
+These features offer a comprehensive view (evolutionary neighbourhood - from multiple sequence alignments x BLOSUM62) of the amino acid composition within protein sequences.
 
 ## Usage
 Commonly utilized dataset for various tasks, including protein structure prediction, secondary structure analysis, and sequence profiling. The dataset's diverse set of features provides valuable information for protein-related studies.
