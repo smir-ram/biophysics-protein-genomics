@@ -5,7 +5,7 @@ The 57 features are categorized as follows:
 
 ## Amino Acid Residues (Features 0 to 21)
 These features represent amino acid residues found in protein sequences.
-The order of amino acid residues is as follows: 'A', 'C', 'E', 'D', 'G', 'F', 'I', 'H', 'K', 'M', 'L', 'N', 'Q', 'P', 'S', 'R', 'T', 'W', 'V', 'Y', 'X', 'NonSeq'. 'NonSeq' - could be an ion/ ligand.
+The order of amino acid residues is as follows: `ACDEFGHIKLMNPQRSTVWYX`
 
 A: Alanine
 C: Cysteine
@@ -27,7 +27,7 @@ T: Threonine
 W: Tryptophan
 V: Valine
 Y: Tyrosine
-X: Represents "synthetic/man-made" amino acid
+X: Represents "synthetic/man-made" amino acid, ion/ligand/small-molecule
 
 ## Secondary Structure Labels (Features 22 to 30)
 These features represent secondary structure labels associated with protein sequences.
@@ -57,19 +57,21 @@ The 'S' label represents residues in a bend or a region where the protein backbo
 >T (Turn): 
 The 'T' label is assigned to residues in a turn or loop that connects two strands of a beta sheet. Turns facilitate the folding of beta sheets.
 
->NonSeq (Coiled-Coil): Propensity to wind around each other in a right-handed or left-handed supercoil. This winding creates a characteristic coiled or helical appearance.
+>NonSeq (Coiled-Coil): Propensity to wind around each other in a right-handed or left-handed supercoil. This winding creates a characteristic coiled or loop (any other type)
 
 ## N- and C-Terminals (Features 31 to 32)
 These features provide information about the N- and C-terminals of protein sequences.
 They offer insights into the terminus regions of the proteins.
 ## Solvent Accessibility (Features 33 to 34)
 These features include both relative and absolute solvent accessibility values.
-Absolute accessibility values are thresholded at 15, while relative accessibility values are normalized by the largest accessibility value in a protein and thresholded at 0.13
+Absolute accessibility values with probe radius 1.3 (roughly the radius of water molecule), while relative accessibility values are normalized by the largest accessibility value in a protein.
+
 ## The original solvent accessibility values are computed using the DSSP method.
 These features describe the accessibility of amino acids within proteins.
-## Sequence Profile (Features 35 to 56)
+
+## PSSM - position-specific scoring systems (Features 35 to 56)
 The sequence profile features provide detailed information about the occurrence of amino acid residues.
-The order of amino acid residues in the sequence profile is 'ACDEFGHIKLMNPQRSTVWXY', which differs from the order used for amino acid residues.
+The order of amino acid residues in the sequence profile is `ACDEFGHIKLMNPQRSTVWY-`, which differs from the order used for amino acid residues.
 These features offer a comprehensive view of the amino acid composition within protein sequences.
 
 ## Usage

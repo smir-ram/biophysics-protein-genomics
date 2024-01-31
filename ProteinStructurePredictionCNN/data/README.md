@@ -5,7 +5,7 @@ The 57 features are categorized as follows:
 
 ## Amino Acid Residues (Features 0 to 21)
 These features represent amino acid residues found in protein sequences.
-The order of amino acid residues is as follows: 'A', 'C', 'E', 'D', 'G', 'F', 'I', 'H', 'K', 'M', 'L', 'N', 'Q', 'P', 'S', 'R', 'T', 'W', 'V', 'Y', 'X', 'NonSeq'. 'NonSeq' - could be an ion/ ligand.
+The order of amino acid residues is as follows: `ACDEFGHIKLMNPQRSTVWYX`
 
 A: Alanine
 C: Cysteine
@@ -27,7 +27,7 @@ T: Threonine
 W: Tryptophan
 V: Valine
 Y: Tyrosine
-X: Represents "synthetic/man-made" amino acid
+X: Represents "synthetic/man-made" amino acid, ion/ligand/small-molecule
 
 ## Secondary Structure Labels (Features 22 to 30)
 These features represent secondary structure labels associated with protein sequences.
@@ -69,9 +69,9 @@ Absolute accessibility values with probe radius 1.3 (roughly the radius of water
 ## The original solvent accessibility values are computed using the DSSP method.
 These features describe the accessibility of amino acids within proteins.
 
-## Sequence Profile (Features 35 to 56)
+## PSSM - position-specific scoring systems (Features 35 to 56)
 The sequence profile features provide detailed information about the occurrence of amino acid residues.
-The order of amino acid residues in the sequence profile is 'ACDEFGHIKLMNPQRSTVWXY', which differs from the order used for amino acid residues.
+The order of amino acid residues in the sequence profile is `ACDEFGHIKLMNPQRSTVWY-`, which differs from the order used for amino acid residues.
 These features offer a comprehensive view of the amino acid composition within protein sequences.
 
 ## Usage
