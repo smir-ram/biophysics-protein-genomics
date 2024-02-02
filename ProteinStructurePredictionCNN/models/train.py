@@ -9,13 +9,13 @@ from metrics import accuracy
 from dataset import load_dataset, get_data_labels
 from sklearn.model_selection import train_test_split
 
-do_summary = True
+flag_summary = True
 
 LR = 0.0001
-drop_out = 0.3
-batch_dim = 64
+
+batch_dim = 320
 nn_epochs = 2000
-loss_fn2 = torch.nn.MSELoss()
+loss_fn2 = torch.nn.SmoothL1Loss()
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # You can print the detected device
@@ -25,13 +25,14 @@ checkpoint = True  # Save the best model
 epoch_eval = nn_epochs/10
 def load_data(data_file_path,
               use_labels=[],
+              only_pssm=True,
               test_size=0.2, 
               random_state=42):
     data,num_Y = load_dataset(data_file_path,
                        use_labels=use_labels) #not in git
     X,Y = get_data_labels(data, 
                           num_Y,
-                          only_pssm=True)
+                          only_pssm)
     
     # Split the dataset into train, validation, and test sets
     X_train, X_temp, Y_train, y_temp = train_test_split(X, Y, test_size=test_size, random_state=random_state)
@@ -43,7 +44,8 @@ def load_data(data_file_path,
 
 def run(data, 
         model=None,
-       tag='model'):
+       tag='model',
+       accuracy_threshold =0.5):
     # Load your dataset and preprocess as needed
     [x_train, x_test, x_val, y_train, y_test, y_val] = data
     
@@ -61,10 +63,10 @@ def run(data,
 
     optimizer = optim.Adam(model.parameters(), lr=LR)
 
-    if do_summary:
+    if flag_summary:
         print("\nHyper Parameters\n")
         print("Learning Rate: " + str(LR))
-        print("Dropout: " + str(drop_out))
+        print("Dropout: " + str(model.dropout_probability))
         print("Batch Dimension: " + str(batch_dim))
         print("Number of Epochs: " + str(nn_epochs))
         print("\nLoss: Custom Loss\n")
@@ -93,7 +95,7 @@ def run(data,
                 for inputs, targets in test_loader:
                     inputs, targets = inputs.to(device), targets.to(device)
                     predicted = model(inputs)
-                    _accuracy = accuracy(targets, predicted)
+                    _accuracy = accuracy(targets, predicted,accuracy_threshold)
                     correct += _accuracy
                     total += 1
 
