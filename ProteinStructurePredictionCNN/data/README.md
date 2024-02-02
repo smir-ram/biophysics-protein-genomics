@@ -16,33 +16,33 @@ The sequence profile features provide detailed information about the occurrence 
 The order of amino acid residues in the sequence profile is `ACDEFGHIKLMNPQRSTVWXY`. These features offer a comprehensive view (evolutionary neighbourhood - from multiple sequence alignments x BLOSUM62) of the amino acid composition within protein sequences.
 These features represent amino acid residues found in protein sequences as follows -
 
-A: Alanine
-C: Cysteine
-E: Glutamic Acid
-D: Aspartic Acid
-G: Glycine
-F: Phenylalanine
-I: Isoleucine
-H: Histidine
-K: Lysine
-M: Methionine
-L: Leucine
-N: Asparagine
-Q: Glutamine
-P: Proline
-S: Serine
-R: Arginine
-T: Threonine
-W: Tryptophan
-V: Valine
-X: Represents "synthetic/man-made" amino acid, ion/ligand/small-molecule
-Y: Tyrosine
+>A: Alanine
+>C: Cysteine
+>E: Glutamic Acid
+>D: Aspartic Acid
+>G: Glycine
+>F: Phenylalanine
+>I: Isoleucine
+>H: Histidine
+>K: Lysine
+>M: Methionine
+>L: Leucine
+>N: Asparagine
+>Q: Glutamine
+>P: Proline
+>S: Serine
+>R: Arginine
+>T: Threonine
+>W: Tryptophan
+>V: Valine
+>X: Represents "synthetic/man-made" amino acid, ion/ligand/small-molecule
+>Y: Tyrosine
 
 # Labels
 These features represent secondary structure labels associated with protein sequences.
 
 ## Secondary Structure Labels (Features 26 to 33)
-The sequence of secondary structure labels includes: 'L', 'B', 'E', 'G', 'I', 'H', 'S', 'T'.
+The sequence of secondary structure labels includes: 'ssL', 'ssB', 'ssE', 'ssG', 'ssI', 'ssH', 'ssS', 'ssT'.
 
 label representations are as follows:
 > L (Loop): 

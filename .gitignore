@@ -1,4 +1,5 @@
-ProteinStructurePredictionCNN/data/raw_0
+# local full data
+**/raw_0/
 
 # Ignore Python bytecode files
 *.pyc

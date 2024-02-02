@@ -1,12 +1,19 @@
-def Q8_accuracy(real, pred):
-    total = real.shape[0] * real.shape[1]
+import torch 
+
+def accuracy(real,pred):
     correct = 0
-    for i in range(real.shape[0]):  # per element in the batch
-        for j in range(real.shape[1]):  # per amino acid residue
-            if np.sum(real[i, j, :]) == 0:  # if it is padding
-                total = total - 1
-            else:
-                if real[i, j] == torch.argmax(pred[i, j]):
-                    correct = correct + 1
+    total = 0
+
+    for i in range(real.size(0)):  # per element in the batch
+        for j in range(real.size(1)):  # per amino acid residue
+            true_labels = real[i, j, :]
+            predicted_labels = (pred[i, j, :] > 0.5).to(torch.float32)  # Use threshold of 0.5 for binary classification
+            # Calculate accuracy for this position
+            accuracy = (true_labels == predicted_labels).all().item()  # Check if all labels match
+            correct += accuracy
+            total += 1
 
     return correct / total
+
+def accuracy_max_value(real,pred):
+    pass
