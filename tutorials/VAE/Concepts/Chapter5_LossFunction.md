@@ -5,6 +5,8 @@
 
 ## `KL Divergence`
 
+Compares the Posterior ($q(z|x)$; $z$ latent variables given $x$ inputs) and Prior distributions
+
 ### Prior
 The prior distribution typically does not depend directly on the input `x`. Instead, the prior is usually chosen to be a standard distribution that is **fixed before training** and does not change with the input. The most common choice for the prior is a standard normal or **gaussian  distribution**, $N(0,I)$, where $\mu$= 0is a zero mean vector and $I$ is the identity matrix as the covariance, indicating that the **latent variables are independent and identically distributed**.
  
@@ -17,6 +19,10 @@ The prior distribution typically does not depend directly on the input `x`. Inst
  * forces the model to learn the encoded distributions to resemble the prior ($N(0,I)$; covariance $I$ is an identity matrix, ensuring the latent variables are independent and identically distributed) and reconstruct the input variables accurately.
  
  3. Advanced Models have `conditional priors` - how do they work?
- * *blah*
+ * <blah>
+ 
+ 
+ ### Math
+ <blah>
 
 
